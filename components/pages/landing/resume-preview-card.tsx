@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 export function ResumePreviewCard() {
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto animate-pulse">
       <div className="bg-white rounded-2xl shadow-lg p-8 space-y-3 filter blur-sm opacity-60">
         <div className="h-3 bg-gray-200 rounded w-1/3"></div>
         <div className="h-2 bg-indigo-200 rounded w-1/4"></div>
@@ -17,5 +17,5 @@ export function ResumePreviewCard() {
         </div>
       </div>
     </div>
-  )
+  );
 }

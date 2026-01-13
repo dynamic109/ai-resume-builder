@@ -1,7 +1,5 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
-import { Copy, Wand2, Download, CheckCircle2 } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Copy, Wand2, Download, CheckCircle2 } from "lucide-react";
 
 export function ActionToolbar() {
   return (
@@ -13,7 +11,9 @@ export function ActionToolbar() {
             <div className="flex items-center gap-2 mt-1">
               <CheckCircle2 className="w-4 h-4 text-green-600" />
               <span className="text-xs text-green-600 font-medium">Saved</span>
-              <span className="text-xs text-muted-foreground">Last edited just now</span>
+              <span className="text-xs text-muted-foreground">
+                Last edited just now
+              </span>
             </div>
           </div>
         </div>
@@ -39,5 +39,5 @@ export function ActionToolbar() {
         </div>
       </div>
     </div>
-  )
+  );
 }
