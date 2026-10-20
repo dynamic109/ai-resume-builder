@@ -21,7 +21,7 @@ export function Navbar() {
                 variant="ghost"
                 className="text-sm hover:bg-transparent cursor-pointer hover:text-[#212121]"
               >
-                How it work
+                How it works
               </Button>
             </Link>
             <Link href={"/generator"}>

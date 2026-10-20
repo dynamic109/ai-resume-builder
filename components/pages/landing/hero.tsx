@@ -19,7 +19,9 @@ export function Hero() {
         faster.
       </p>
 
-      <CTAButton className="mx-auto md:mb-12">Generate Now</CTAButton>
+      <CTAButton href="/generator" className="mx-auto md:mb-12">
+        Generate Now
+      </CTAButton>
 
       <div className="relative">
         <ResumePreviewCard />
